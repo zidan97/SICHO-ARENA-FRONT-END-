@@ -3,6 +3,7 @@ import ReserveSlot from "../Content/ReserveSlot";
 import SportsCategory from "../Content/SportsCategory";
 import YoutubeEmbaded from "../Content/YoutubeEmbaded";
 import TopMenu from "../layout/TopMenu";
+import Review from "../Reviews/Review";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <HomeContent></HomeContent>
       <SportsCategory></SportsCategory>
       <YoutubeEmbaded></YoutubeEmbaded>
+      <Review></Review>
       <ReserveSlot></ReserveSlot>
       </div>
   );

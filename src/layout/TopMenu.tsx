@@ -45,6 +45,11 @@ const items: MenuItem[] = [
     key: "about",
     style: { color: "white" },
   },
+  {
+    label: "Review",
+    key: "review",
+    style: { color: "white" },
+  },
 
   {
     label: "Contact",
@@ -111,7 +116,11 @@ const TopMenu: React.FC = () => {
       navigate("/about");
     } else if (e.key === "booking") {
       navigate("/booking");
-    } else if (e.key === "services") {
+    } 
+    else if(e.key==="review"){
+      navigate("/allreview");
+    }
+    else if (e.key === "services") {
       navigate("/service");
     } else if (e.key === "contact") {
       navigate("/contact");

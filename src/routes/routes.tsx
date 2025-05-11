@@ -23,6 +23,7 @@ import Servicepages from "../pages/Service.pages";
 import Contactpages from "../pages/Contact.pages";
 import AnnouncementPage from "../Admin/Announcement/Announcement";
 import AnnouncementClient from "../pages/Announcement.pages";
+import AllReviews from "../Reviews/AllReviews";
 
 const routes = () => {
   return (
@@ -31,6 +32,7 @@ const routes = () => {
         <Route element={<App />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<Aboutpages />} />
+          <Route path ="/allreview" element={<AllReviews></AllReviews>}/>
           <Route path="/clientannounce" element={<AnnouncementClient />} />
           <Route path="/service" element={<Servicepages />} />
           <Route path="/contact" element={<Contactpages />} />
